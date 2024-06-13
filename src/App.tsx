@@ -43,7 +43,7 @@ function App() {
       <div className="fixed">
         <h1 className="font-thin leading-none text-[70px] tracking-wider mb-4">
           Find new
-          <br /> CodeSandbox
+          <br /> CodeSandboxes
           <br /> templates
         </h1>
 
