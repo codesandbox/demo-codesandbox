@@ -16,7 +16,7 @@ function App() {
   const fetchTemplates = async () => {
     setState({ state: "LOADING" });
     const data = await fetch(
-      "https://codesandbox.io/api/v1/sandboxes/templates/official",
+      "https://codesandbox.io/api/v1/sandboxes/templates/official"
     );
     const json = await data.json();
     const sandboxes = json[0].sandboxes;
@@ -28,7 +28,7 @@ function App() {
       setState({
         state: "READY",
         data: sandboxes.filter((item) =>
-          (item.custom_template?.icon_url ?? "").startsWith("http"),
+          (item.custom_template?.icon_url ?? "").startsWith("http")
         ),
       });
     }, 1000);
@@ -43,7 +43,7 @@ function App() {
       <div className="fixed">
         <h1 className="font-thin leading-none text-[70px] tracking-wider mb-4">
           Discover
-          <br /> CodeSandbox
+          <br /> amazing
           <br /> templates
         </h1>
 
