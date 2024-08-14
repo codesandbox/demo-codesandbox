@@ -42,8 +42,8 @@ function App() {
     <div className="flex-1 space-y-4 p-4 pt-6 bg-amber-100 min-h-[100vh]">
       <div className="fixed">
         <h1 className="font-thin leading-none text-[70px] tracking-wider mb-4">
-          Discover
-          <br /> CodeSandbox
+          Find
+          <br /> AWESOME
           <br /> templates
         </h1>
 
